@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #FF9D0A;
+}
+body{
+    background-color: #0c0101;
+}
+section{
+    margin-bottom: 7%;
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+   
+}
+div{
+    border-radius: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+    height: auto;
+    background-color: #431D02;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p{
+    margin-left: 5px;
+    font-size: 1.2em;
+}
+.part1,.part2{
+    width: 50%;
+    margin-top: 2%;   
+}
+.part2 img{
+    justify-content: right;
+    width: 100%;
+    height: 400px;
+    
+}
+.section-1{
+    height: 400px;
+    width: 100%;
+    justify-content: right;
+    margin-bottom: 10%;
+}
+.section-2{
+    flex-direction: column;
+}
+.part-2,.part-1{
+    flex-direction: row;
+    background-color: #0c0101;
+}
+.shop{
+    width: 100%;
+    margin: auto;
+    height: 450px;
+    
+}
+.section-5{
+    width: 100%;
+    margin: auto;
+}
+.parttwo{
+    
+    width: 70%;
+    margin: 0;
+}
+.part-two{
+    text-align: center;
+}
+.partone{
+    margin-right: 0;
+    width: 40%;
+}
+.part-one{
+    background-color:#0c0101;
+}
+.part-one img,.part_2 img{
+     height: 500px;
+}
+.line{
+    text-align: center;
+}
+h2{
+    font-family:"Port Lligat Sans";
+    font-weight: bolder;
+    font-size: 2.2em;
+}
+.best{
+    font-weight: bold;
+}
+button{
+    background-color: #FF9D0A; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
