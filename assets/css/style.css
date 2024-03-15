@@ -1,0 +1,28 @@
+h1 {
+    margin: 10px;
+    padding: 0px;
+    font-family: arial;
+    font-size: 50px;
+}
+h5 {
+    color: rgb(0, 19, 19);
+    font-family: arial;
+    font-size: 20px;
+}
+p {
+    color: rgb(1, 19, 17);
+font-family: courier;
+font-size: 25px;
+border: 10px;
+padding: 30px;
+}img {
+    image-rendering: auto;
+    image-orientation: initial;
+    image-resolution: 25px*25px;
+    width: 700px;
+    height: 300px;
+}
+body{
+    background-color: chocolate;
+    padding-left: 350px;
+}
