@@ -97,14 +97,139 @@ h2{
 button{
     background-color: #FF9D0A; /* Green */
     border: none;
+    font-weight: bolder;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
     
+}
+
+
+/* Header */
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color:orange;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+/* footer */
+footer {
+    background-color: #111111e1;
+    color: #fff;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.container-footer {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: calc(50% / 3 - 20px);
+    margin-bottom: 20px;
+   
+}
+.footer-column p,h4,ul.faqs-column li{
+    color: #fff;
+}
+
+footer h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #64b1f8;
+    text-decoration: none;
+}
+
+ul.faqs-column{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+ul.social-media-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media-icons img {
+    width: 30px;
+    height: 30px;
+}
+#subscribe-form {
+    position: relative; /* Needed for absolute positioning of subscribe message */
+}
+
+#email-input {
+    width: 80%;
+    height: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+#subscribe-button {
+    width: 100%;
+    padding: 8px;
+    border: 1px;
+    background-color: white;
+    border-radius: 5px; /* Border radius on hover */
+
+    color: #05040f;
+    cursor: pointer;
+}
+
+#subscribe-button:hover {
+    background-color:#64b1f8;
 }
