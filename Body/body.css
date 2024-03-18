@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #FF9D0A;
+}
+body{
+    background-color: #0c0101;
+}
+section{
+    margin-bottom: 7%;
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+   
+}
+div{
+    border-radius: 20px;
+    margin-right: 2%;
+    margin-left: 2%;
+    height: auto;
+    background-color: #431D02;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+p{
+    margin-left: 5px;
+    font-size: 1.2em;
+}
+.part1,.part2{
+    width: 50%;
+    margin-top: 2%;   
+}
+.part2 img{
+    justify-content: right;
+    width: 100%;
+    height: 400px;
+    
+}
+.section-1{
+    height: 400px;
+    width: 100%;
+    justify-content: right;
+    margin-bottom: 10%;
+}
+.section-2{
+    flex-direction: column;
+}
+.part-2,.part-1{
+    flex-direction: row;
+    background-color: #0c0101;
+}
+.shop{
+    width: 100%;
+    margin: auto;
+    height: 450px;
+    
+}
+.section-5{
+    width: 100%;
+    margin: auto;
+}
+.parttwo{
+    
+    width: 70%;
+    margin: 0;
+}
+.part-two{
+    text-align: center;
+}
+.partone{
+    margin-right: 0;
+    width: 40%;
+}
+.part-one{
+    background-color:#0c0101;
+}
+.part-one img,.part_2 img{
+     height: 500px;
+}
+.line{
+    text-align: center;
+}
+h2{
+    font-family:"Port Lligat Sans";
+    font-weight: bolder;
+    font-size: 2.2em;
+}
+.best{
+    font-weight: bold;
+}
+button{
+    background-color: #FF9D0A; /* Green */
+    border: none;
+    font-weight: bolder;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+
+/* Header */
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color:orange;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+/* footer */
+footer {
+    background-color: #111111e1;
+    color: #fff;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.container-footer {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: calc(50% / 3 - 20px);
+    margin-bottom: 20px;
+   
+}
+.footer-column p,h4,ul.faqs-column li{
+    color: #fff;
+}
+
+footer h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #64b1f8;
+    text-decoration: none;
+}
+
+ul.faqs-column{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+ul.social-media-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media-icons img {
+    width: 30px;
+    height: 30px;
+}
+#subscribe-form {
+    position: relative; /* Needed for absolute positioning of subscribe message */
+}
+
+#email-input {
+    width: 80%;
+    height: 15px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+#subscribe-button {
+    width: 100%;
+    padding: 8px;
+    border: 1px;
+    background-color: white;
+    border-radius: 5px; /* Border radius on hover */
+
+    color: #05040f;
+    cursor: pointer;
+}
+
+#subscribe-button:hover {
+    background-color:#64b1f8;
+}
